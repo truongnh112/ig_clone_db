@@ -44,28 +44,3 @@ FOREIGN KEY (user_id) REFERENCES users(id);
 ALTER TABLE comments
 ADD CONSTRAINT FK_cmts_photos
 FOREIGN KEY (photo_id) REFERENCES photos(id);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
